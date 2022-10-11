@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/sucharitadhar/Documents/GitHub/consentify/build/flutter_local_notifications/intermediates/res/merged/release/values-is/values-is.xml",
+            "outputFile": "E:\\CONSENTIFY\\build\\flutter_local_notifications\\intermediates\\merged_res\\release\\values-is\\values-is.xml",
             "map": [
                 {
-                    "source": "/Users/sucharitadhar/.gradle/caches/transforms-2/files-2.1/544eab86e7823cb4f6f6bbcd34094c52/core-1.2.0/res/values-is/values-is.xml",
+                    "source": "C:\\Users\\yesh\\.gradle\\caches\\transforms-3\\4cb1b5a1b05b853580fb9baf5881fb52\\transformed\\core-1.6.0\\res\\values-is\\values-is.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -16,10 +16,10 @@
             ]
         },
         {
-            "outputFile": "/Users/sucharitadhar/Documents/GitHub/consentify/build/flutter_local_notifications/intermediates/incremental/mergeReleaseResources/merged.dir/values-is/values-is.xml",
+            "outputFile": "E:\\CONSENTIFY\\build\\flutter_local_notifications\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-is\\values-is.xml",
             "map": [
                 {
-                    "source": "/Users/sucharitadhar/.gradle/caches/transforms-2/files-2.1/544eab86e7823cb4f6f6bbcd34094c52/core-1.2.0/res/values-is/values-is.xml",
+                    "source": "C:\\Users\\yesh\\.gradle\\caches\\transforms-3\\4cb1b5a1b05b853580fb9baf5881fb52\\transformed\\core-1.6.0\\res\\values-is\\values-is.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

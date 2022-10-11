@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\CONSENTIFY\\build\\fluttertoast\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-is\\values-is.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\yesh\\.gradle\\caches\\transforms-3\\4cb1b5a1b05b853580fb9baf5881fb52\\transformed\\core-1.6.0\\res\\values-is\\values-is.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\CONSENTIFY\\build\\fluttertoast\\intermediates\\merged_res\\release\\values-is\\values-is.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\yesh\\.gradle\\caches\\transforms-3\\4cb1b5a1b05b853580fb9baf5881fb52\\transformed\\core-1.6.0\\res\\values-is\\values-is.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

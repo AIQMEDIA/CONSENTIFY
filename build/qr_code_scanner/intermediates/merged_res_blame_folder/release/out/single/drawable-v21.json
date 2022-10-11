@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\CONSENTIFY\\build\\qr_code_scanner\\intermediates\\merged_res\\release\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\yesh\\.gradle\\caches\\transforms-3\\65d1806e274329aba941ec41a8fbd7b9\\transformed\\appcompat-1.4.2\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "E:\\CONSENTIFY\\build\\qr_code_scanner\\intermediates\\merged_res\\release\\drawable-v21\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\yesh\\.gradle\\caches\\transforms-3\\65d1806e274329aba941ec41a8fbd7b9\\transformed\\appcompat-1.4.2\\res\\drawable-v21\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "E:\\CONSENTIFY\\build\\qr_code_scanner\\intermediates\\merged_res\\release\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\yesh\\.gradle\\caches\\transforms-3\\65d1806e274329aba941ec41a8fbd7b9\\transformed\\appcompat-1.4.2\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "E:\\CONSENTIFY\\build\\qr_code_scanner\\intermediates\\merged_res\\release\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\yesh\\.gradle\\caches\\transforms-3\\adacc4bbdca3c037c01e5031782c646c\\transformed\\core-1.7.0\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "E:\\CONSENTIFY\\build\\qr_code_scanner\\intermediates\\merged_res\\release\\drawable-v21\\abc_list_divider_material.xml",
+        "source": "C:\\Users\\yesh\\.gradle\\caches\\transforms-3\\65d1806e274329aba941ec41a8fbd7b9\\transformed\\appcompat-1.4.2\\res\\drawable-v21\\abc_list_divider_material.xml"
+    },
+    {
+        "merged": "E:\\CONSENTIFY\\build\\qr_code_scanner\\intermediates\\merged_res\\release\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\yesh\\.gradle\\caches\\transforms-3\\65d1806e274329aba941ec41a8fbd7b9\\transformed\\appcompat-1.4.2\\res\\drawable-v21\\abc_edit_text_material.xml"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "E:\\CONSENTIFY\\build\\fluttertoast\\intermediates\\merged_res\\release\\layout\\notification_action.xml",
+        "source": "C:\\Users\\yesh\\.gradle\\caches\\transforms-3\\4cb1b5a1b05b853580fb9baf5881fb52\\transformed\\core-1.6.0\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\CONSENTIFY\\build\\fluttertoast\\intermediates\\merged_res\\release\\layout\\toast_custom.xml",
+        "source": "D:\\flutter_windows_3.0.5-stable\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\fluttertoast-8.0.9\\android\\src\\main\\res\\layout\\toast_custom.xml"
+    },
+    {
+        "merged": "E:\\CONSENTIFY\\build\\fluttertoast\\intermediates\\merged_res\\release\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\yesh\\.gradle\\caches\\transforms-3\\4cb1b5a1b05b853580fb9baf5881fb52\\transformed\\core-1.6.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\CONSENTIFY\\build\\fluttertoast\\intermediates\\merged_res\\release\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\yesh\\.gradle\\caches\\transforms-3\\4cb1b5a1b05b853580fb9baf5881fb52\\transformed\\core-1.6.0\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\CONSENTIFY\\build\\fluttertoast\\intermediates\\merged_res\\release\\layout\\custom_dialog.xml",
+        "source": "C:\\Users\\yesh\\.gradle\\caches\\transforms-3\\4cb1b5a1b05b853580fb9baf5881fb52\\transformed\\core-1.6.0\\res\\layout\\custom_dialog.xml"
+    },
+    {
+        "merged": "E:\\CONSENTIFY\\build\\fluttertoast\\intermediates\\merged_res\\release\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\yesh\\.gradle\\caches\\transforms-3\\4cb1b5a1b05b853580fb9baf5881fb52\\transformed\\core-1.6.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\CONSENTIFY\\build\\fluttertoast\\intermediates\\merged_res\\release\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\yesh\\.gradle\\caches\\transforms-3\\4cb1b5a1b05b853580fb9baf5881fb52\\transformed\\core-1.6.0\\res\\layout\\notification_template_icon_group.xml"
+    }
+]

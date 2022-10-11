@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/sucharitadhar/Documents/GitHub/consentify/build/sqflite/intermediates/res/merged/release/values-ur/values-ur.xml",
+            "outputFile": "E:\\CONSENTIFY\\build\\sqflite\\intermediates\\merged_res\\release\\values-ur\\values-ur.xml",
             "map": [
                 {
-                    "source": "/Users/sucharitadhar/.gradle/caches/transforms-2/files-2.1/2e94107f30f39be366a17347c2bf100b/core-1.1.0/res/values-ur/values-ur.xml",
+                    "source": "C:\\Users\\yesh\\.gradle\\caches\\transforms-3\\4cb1b5a1b05b853580fb9baf5881fb52\\transformed\\core-1.6.0\\res\\values-ur\\values-ur.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -16,10 +16,10 @@
             ]
         },
         {
-            "outputFile": "/Users/sucharitadhar/Documents/GitHub/consentify/build/sqflite/intermediates/incremental/mergeReleaseResources/merged.dir/values-ur/values-ur.xml",
+            "outputFile": "E:\\CONSENTIFY\\build\\sqflite\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-ur\\values-ur.xml",
             "map": [
                 {
-                    "source": "/Users/sucharitadhar/.gradle/caches/transforms-2/files-2.1/2e94107f30f39be366a17347c2bf100b/core-1.1.0/res/values-ur/values-ur.xml",
+                    "source": "C:\\Users\\yesh\\.gradle\\caches\\transforms-3\\4cb1b5a1b05b853580fb9baf5881fb52\\transformed\\core-1.6.0\\res\\values-ur\\values-ur.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -3,37 +3,40 @@
 3    xmlns:tools="http://schemas.android.com/tools"
 4    package="com.crazecoder.openfile" >
 5
-6    <uses-sdk android:minSdkVersion="16" />
-6-->/Users/sucharitadhar/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/open_file-3.2.1/android/src/main/AndroidManifest.xml
-7
-8    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
-8-->/Users/sucharitadhar/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/open_file-3.2.1/android/src/main/AndroidManifest.xml:5:5-83
-8-->/Users/sucharitadhar/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/open_file-3.2.1/android/src/main/AndroidManifest.xml:5:22-80
-9    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-9-->/Users/sucharitadhar/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/open_file-3.2.1/android/src/main/AndroidManifest.xml:6:5-80
-9-->/Users/sucharitadhar/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/open_file-3.2.1/android/src/main/AndroidManifest.xml:6:22-77
-10
-11    <application>
-11-->/Users/sucharitadhar/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/open_file-3.2.1/android/src/main/AndroidManifest.xml:8:5-20:19
-12        <provider
-12-->/Users/sucharitadhar/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/open_file-3.2.1/android/src/main/AndroidManifest.xml:9:9-19:20
-13            android:name="com.crazecoder.openfile.FileProvider"
-13-->/Users/sucharitadhar/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/open_file-3.2.1/android/src/main/AndroidManifest.xml:10:13-64
-14            android:authorities="${applicationId}.fileProvider.com.crazecoder.openfile"
-14-->/Users/sucharitadhar/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/open_file-3.2.1/android/src/main/AndroidManifest.xml:11:13-88
-15            android:exported="false"
-15-->/Users/sucharitadhar/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/open_file-3.2.1/android/src/main/AndroidManifest.xml:12:13-37
-16            android:grantUriPermissions="true"
-16-->/Users/sucharitadhar/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/open_file-3.2.1/android/src/main/AndroidManifest.xml:13:13-47
-17            tools:replace="android:authorities" >
-17-->/Users/sucharitadhar/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/open_file-3.2.1/android/src/main/AndroidManifest.xml:14:13-48
-18            <meta-data
-18-->/Users/sucharitadhar/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/open_file-3.2.1/android/src/main/AndroidManifest.xml:15:13-18:20
-19                android:name="android.support.FILE_PROVIDER_PATHS"
-19-->/Users/sucharitadhar/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/open_file-3.2.1/android/src/main/AndroidManifest.xml:16:17-67
-20                android:resource="@xml/filepaths" />
-20-->/Users/sucharitadhar/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/open_file-3.2.1/android/src/main/AndroidManifest.xml:17:17-50
-21        </provider>
-22    </application>
-23
-24</manifest>
+6    <uses-sdk
+7        android:minSdkVersion="16"
+7-->D:\flutter_windows_3.0.5-stable\flutter\.pub-cache\hosted\pub.dartlang.org\open_file-3.2.1\android\src\main\AndroidManifest.xml
+8        android:targetSdkVersion="16" />
+8-->D:\flutter_windows_3.0.5-stable\flutter\.pub-cache\hosted\pub.dartlang.org\open_file-3.2.1\android\src\main\AndroidManifest.xml
+9
+10    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+10-->D:\flutter_windows_3.0.5-stable\flutter\.pub-cache\hosted\pub.dartlang.org\open_file-3.2.1\android\src\main\AndroidManifest.xml:5:5-83
+10-->D:\flutter_windows_3.0.5-stable\flutter\.pub-cache\hosted\pub.dartlang.org\open_file-3.2.1\android\src\main\AndroidManifest.xml:5:22-80
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->D:\flutter_windows_3.0.5-stable\flutter\.pub-cache\hosted\pub.dartlang.org\open_file-3.2.1\android\src\main\AndroidManifest.xml:6:5-80
+11-->D:\flutter_windows_3.0.5-stable\flutter\.pub-cache\hosted\pub.dartlang.org\open_file-3.2.1\android\src\main\AndroidManifest.xml:6:22-77
+12
+13    <application>
+13-->D:\flutter_windows_3.0.5-stable\flutter\.pub-cache\hosted\pub.dartlang.org\open_file-3.2.1\android\src\main\AndroidManifest.xml:8:5-20:19
+14        <provider
+14-->D:\flutter_windows_3.0.5-stable\flutter\.pub-cache\hosted\pub.dartlang.org\open_file-3.2.1\android\src\main\AndroidManifest.xml:9:9-19:20
+15            android:name="com.crazecoder.openfile.FileProvider"
+15-->D:\flutter_windows_3.0.5-stable\flutter\.pub-cache\hosted\pub.dartlang.org\open_file-3.2.1\android\src\main\AndroidManifest.xml:10:13-64
+16            android:authorities="${applicationId}.fileProvider.com.crazecoder.openfile"
+16-->D:\flutter_windows_3.0.5-stable\flutter\.pub-cache\hosted\pub.dartlang.org\open_file-3.2.1\android\src\main\AndroidManifest.xml:11:13-88
+17            android:exported="false"
+17-->D:\flutter_windows_3.0.5-stable\flutter\.pub-cache\hosted\pub.dartlang.org\open_file-3.2.1\android\src\main\AndroidManifest.xml:12:13-37
+18            android:grantUriPermissions="true"
+18-->D:\flutter_windows_3.0.5-stable\flutter\.pub-cache\hosted\pub.dartlang.org\open_file-3.2.1\android\src\main\AndroidManifest.xml:13:13-47
+19            tools:replace="android:authorities" >
+19-->D:\flutter_windows_3.0.5-stable\flutter\.pub-cache\hosted\pub.dartlang.org\open_file-3.2.1\android\src\main\AndroidManifest.xml:14:13-48
+20            <meta-data
+20-->D:\flutter_windows_3.0.5-stable\flutter\.pub-cache\hosted\pub.dartlang.org\open_file-3.2.1\android\src\main\AndroidManifest.xml:15:13-18:20
+21                android:name="android.support.FILE_PROVIDER_PATHS"
+21-->D:\flutter_windows_3.0.5-stable\flutter\.pub-cache\hosted\pub.dartlang.org\open_file-3.2.1\android\src\main\AndroidManifest.xml:16:17-67
+22                android:resource="@xml/filepaths" />
+22-->D:\flutter_windows_3.0.5-stable\flutter\.pub-cache\hosted\pub.dartlang.org\open_file-3.2.1\android\src\main\AndroidManifest.xml:17:17-50
+23        </provider>
+24    </application>
+25
+26</manifest>

@@ -1,18 +1,18 @@
 [
     {
-        "merged": "/Users/sucharitadhar/Documents/GitHub/consentify/build/sqflite/intermediates/res/merged/release/drawable/notification_icon_background.xml",
-        "source": "/Users/sucharitadhar/.gradle/caches/transforms-2/files-2.1/2e94107f30f39be366a17347c2bf100b/core-1.1.0/res/drawable/notification_icon_background.xml"
+        "merged": "E:\\CONSENTIFY\\build\\sqflite\\intermediates\\merged_res\\release\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\yesh\\.gradle\\caches\\transforms-3\\4cb1b5a1b05b853580fb9baf5881fb52\\transformed\\core-1.6.0\\res\\drawable\\notification_bg_low.xml"
     },
     {
-        "merged": "/Users/sucharitadhar/Documents/GitHub/consentify/build/sqflite/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
-        "source": "/Users/sucharitadhar/.gradle/caches/transforms-2/files-2.1/2e94107f30f39be366a17347c2bf100b/core-1.1.0/res/drawable/notification_tile_bg.xml"
+        "merged": "E:\\CONSENTIFY\\build\\sqflite\\intermediates\\merged_res\\release\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\yesh\\.gradle\\caches\\transforms-3\\4cb1b5a1b05b853580fb9baf5881fb52\\transformed\\core-1.6.0\\res\\drawable\\notification_bg.xml"
     },
     {
-        "merged": "/Users/sucharitadhar/Documents/GitHub/consentify/build/sqflite/intermediates/res/merged/release/drawable/notification_bg.xml",
-        "source": "/Users/sucharitadhar/.gradle/caches/transforms-2/files-2.1/2e94107f30f39be366a17347c2bf100b/core-1.1.0/res/drawable/notification_bg.xml"
+        "merged": "E:\\CONSENTIFY\\build\\sqflite\\intermediates\\merged_res\\release\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\yesh\\.gradle\\caches\\transforms-3\\4cb1b5a1b05b853580fb9baf5881fb52\\transformed\\core-1.6.0\\res\\drawable\\notification_tile_bg.xml"
     },
     {
-        "merged": "/Users/sucharitadhar/Documents/GitHub/consentify/build/sqflite/intermediates/res/merged/release/drawable/notification_bg_low.xml",
-        "source": "/Users/sucharitadhar/.gradle/caches/transforms-2/files-2.1/2e94107f30f39be366a17347c2bf100b/core-1.1.0/res/drawable/notification_bg_low.xml"
+        "merged": "E:\\CONSENTIFY\\build\\sqflite\\intermediates\\merged_res\\release\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\yesh\\.gradle\\caches\\transforms-3\\4cb1b5a1b05b853580fb9baf5881fb52\\transformed\\core-1.6.0\\res\\drawable\\notification_icon_background.xml"
     }
 ]

@@ -5,132 +5,234 @@
 5    android:versionName="1.0.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="16"
-9        android:targetSdkVersion="30" />
+8        android:minSdkVersion="28"
+9        android:targetSdkVersion="31" />
 10    <!--
 11         Flutter needs it to communicate with the running application
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->/Users/sucharitadhar/Documents/GitHub/consentify/android/app/src/main/AndroidManifest.xml:51:5-66
-14-->/Users/sucharitadhar/Documents/GitHub/consentify/android/app/src/main/AndroidManifest.xml:51:22-64
+14-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:58:5-66
+14-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:58:22-64
 15    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-15-->/Users/sucharitadhar/Documents/GitHub/consentify/android/app/src/debug/AndroidManifest.xml:7:5-80
-15-->/Users/sucharitadhar/Documents/GitHub/consentify/android/app/src/debug/AndroidManifest.xml:7:22-78
+15-->E:\CONSENTIFY\android\app\src\debug\AndroidManifest.xml:7:5-80
+15-->E:\CONSENTIFY\android\app\src\debug\AndroidManifest.xml:7:22-78
 16    <uses-permission android:name="android.permission.VIBRATE" />
-16-->/Users/sucharitadhar/Documents/GitHub/consentify/android/app/src/debug/AndroidManifest.xml:8:5-65
-16-->/Users/sucharitadhar/Documents/GitHub/consentify/android/app/src/debug/AndroidManifest.xml:8:22-63
-17    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
-17-->[:open_file] /Users/sucharitadhar/Documents/GitHub/consentify/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-83
-17-->[:open_file] /Users/sucharitadhar/Documents/GitHub/consentify/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-80
-18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-18-->[:open_file] /Users/sucharitadhar/Documents/GitHub/consentify/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-80
-18-->[:open_file] /Users/sucharitadhar/Documents/GitHub/consentify/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-77
-19
-20    <application
-20-->/Users/sucharitadhar/Documents/GitHub/consentify/android/app/src/main/AndroidManifest.xml:3:4-50:19
-21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.2.0] /Users/sucharitadhar/.gradle/caches/transforms-2/files-2.1/544eab86e7823cb4f6f6bbcd34094c52/core-1.2.0/AndroidManifest.xml:24:18-86
-22        android:debuggable="true"
-23        android:icon="@mipmap/ic_launcher"
-23-->/Users/sucharitadhar/Documents/GitHub/consentify/android/app/src/main/AndroidManifest.xml:5:9-43
-24        android:label="consentify" >
-24-->/Users/sucharitadhar/Documents/GitHub/consentify/android/app/src/main/AndroidManifest.xml:4:9-35
-25        <activity
-25-->/Users/sucharitadhar/Documents/GitHub/consentify/android/app/src/main/AndroidManifest.xml:6:9-34:20
-26            android:name="com.example.consentify.MainActivity"
-26-->/Users/sucharitadhar/Documents/GitHub/consentify/android/app/src/main/AndroidManifest.xml:7:13-41
-27            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-27-->/Users/sucharitadhar/Documents/GitHub/consentify/android/app/src/main/AndroidManifest.xml:10:13-163
-28            android:hardwareAccelerated="true"
-28-->/Users/sucharitadhar/Documents/GitHub/consentify/android/app/src/main/AndroidManifest.xml:11:13-47
-29            android:launchMode="singleTop"
-29-->/Users/sucharitadhar/Documents/GitHub/consentify/android/app/src/main/AndroidManifest.xml:8:13-43
-30            android:theme="@style/LaunchTheme"
-30-->/Users/sucharitadhar/Documents/GitHub/consentify/android/app/src/main/AndroidManifest.xml:9:13-47
-31            android:windowSoftInputMode="adjustResize" >
-31-->/Users/sucharitadhar/Documents/GitHub/consentify/android/app/src/main/AndroidManifest.xml:12:13-55
-32
-33            <!--
-34                 Specifies an Android theme to apply to this Activity as soon as
-35                 the Android process has started. This theme is visible to the user
-36                 while the Flutter UI initializes. After that, this theme continues
-37                 to determine the Window background behind the Flutter UI.
-38            -->
-39            <meta-data
-39-->/Users/sucharitadhar/Documents/GitHub/consentify/android/app/src/main/AndroidManifest.xml:17:13-20:17
-40                android:name="io.flutter.embedding.android.NormalTheme"
-40-->/Users/sucharitadhar/Documents/GitHub/consentify/android/app/src/main/AndroidManifest.xml:18:15-70
-41                android:resource="@style/NormalTheme" />
-41-->/Users/sucharitadhar/Documents/GitHub/consentify/android/app/src/main/AndroidManifest.xml:19:15-52
-42            <!--
-43                 Displays an Android View that continues showing the launch screen
-44                 Drawable until Flutter paints its first frame, then this splash
-45                 screen fades out. A splash screen is useful to avoid any visual
-46                 gap between the end of Android's launch screen and the painting of
-47                 Flutter's first frame.
-48            -->
-49            <meta-data
-49-->/Users/sucharitadhar/Documents/GitHub/consentify/android/app/src/main/AndroidManifest.xml:26:13-29:17
-50                android:name="io.flutter.embedding.android.SplashScreenDrawable"
-50-->/Users/sucharitadhar/Documents/GitHub/consentify/android/app/src/main/AndroidManifest.xml:27:15-79
-51                android:resource="@drawable/launch_background" />
-51-->/Users/sucharitadhar/Documents/GitHub/consentify/android/app/src/main/AndroidManifest.xml:28:15-61
-52
-53            <intent-filter>
-53-->/Users/sucharitadhar/Documents/GitHub/consentify/android/app/src/main/AndroidManifest.xml:30:13-33:29
-54                <action android:name="android.intent.action.MAIN" />
-54-->/Users/sucharitadhar/Documents/GitHub/consentify/android/app/src/main/AndroidManifest.xml:31:17-68
-54-->/Users/sucharitadhar/Documents/GitHub/consentify/android/app/src/main/AndroidManifest.xml:31:25-66
+16-->E:\CONSENTIFY\android\app\src\debug\AndroidManifest.xml:8:5-65
+16-->E:\CONSENTIFY\android\app\src\debug\AndroidManifest.xml:8:22-63
+17    <uses-permission android:name="android.permission.CAMERA" />
+17-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:3:5-64
+17-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:3:22-62
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:4:6-81
+18-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:4:23-79
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:5:7-81
+19-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:5:24-79
+20    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+20-->[:open_file] E:\CONSENTIFY\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-83
+20-->[:open_file] E:\CONSENTIFY\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-80
+21    <uses-feature
+21-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:25:5-27:36
+22        android:name="android.hardware.camera"
+22-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:26:9-47
+23        android:required="false" />
+23-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:27:9-33
+24    <uses-feature
+24-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:28:5-30:36
+25        android:name="android.hardware.camera.front"
+25-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:29:9-53
+26        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+26-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:30:9-33
+27    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+28    <uses-feature
+28-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:33:5-35:36
+29        android:name="android.hardware.camera.autofocus"
+29-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:34:9-57
+30        android:required="false" />
+30-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:35:9-33
+31    <uses-feature
+31-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:36:5-38:36
+32        android:name="android.hardware.camera.flash"
+32-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:37:9-53
+33        android:required="false" />
+33-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:38:9-33
+34    <uses-feature
+34-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:39:5-41:36
+35        android:name="android.hardware.screen.landscape"
+35-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:40:9-57
+36        android:required="false" />
+36-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:41:9-33
+37    <uses-feature
+37-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:42:5-44:36
+38        android:name="android.hardware.wifi"
+38-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:43:9-45
+39        android:required="false" />
+39-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:44:9-33
+40
+41    <application
+41-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:6:4-57:19
+42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+42-->[androidx.core:core:1.7.0] C:\Users\yesh\.gradle\caches\transforms-3\adacc4bbdca3c037c01e5031782c646c\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+43        android:debuggable="true"
+44        android:extractNativeLibs="false"
+45        android:icon="@mipmap/ic_launcher"
+45-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:8:9-43
+46        android:label="consentify" >
+46-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:7:9-35
+47        <activity
+47-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:9:9-38:20
+48            android:name="com.example.consentify.MainActivity"
+48-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:10:13-41
+49            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+49-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:14:13-163
+50            android:exported="true"
+50-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:11:13-36
+51            android:hardwareAccelerated="true"
+51-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:15:13-47
+52            android:launchMode="singleTop"
+52-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:12:13-43
+53            android:theme="@style/LaunchTheme"
+53-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:13:13-47
+54            android:windowSoftInputMode="adjustResize" >
+54-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:16:13-55
 55
-56                <category android:name="android.intent.category.LAUNCHER" />
-56-->/Users/sucharitadhar/Documents/GitHub/consentify/android/app/src/main/AndroidManifest.xml:32:17-76
-56-->/Users/sucharitadhar/Documents/GitHub/consentify/android/app/src/main/AndroidManifest.xml:32:27-74
-57            </intent-filter>
-58        </activity>
-59
-60        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver" >
-60-->/Users/sucharitadhar/Documents/GitHub/consentify/android/app/src/main/AndroidManifest.xml:35:9-39:20
-60-->/Users/sucharitadhar/Documents/GitHub/consentify/android/app/src/main/AndroidManifest.xml:35:19-107
-61            <intent-filter>
-61-->/Users/sucharitadhar/Documents/GitHub/consentify/android/app/src/main/AndroidManifest.xml:36:11-38:27
-62                <action android:name="android.intent.action.BOOT_COMPLETED" />
-62-->/Users/sucharitadhar/Documents/GitHub/consentify/android/app/src/main/AndroidManifest.xml:37:13-82
-62-->/Users/sucharitadhar/Documents/GitHub/consentify/android/app/src/main/AndroidManifest.xml:37:21-72
-63            </intent-filter>
-64        </receiver>
-65        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver" />
-65-->/Users/sucharitadhar/Documents/GitHub/consentify/android/app/src/main/AndroidManifest.xml:40:9-106
-65-->/Users/sucharitadhar/Documents/GitHub/consentify/android/app/src/main/AndroidManifest.xml:40:19-103
-66
-67        <!--
-68             Don't delete the meta-data below.
-69             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-70        -->
-71        <meta-data
-71-->/Users/sucharitadhar/Documents/GitHub/consentify/android/app/src/main/AndroidManifest.xml:47:9-49:33
-72            android:name="flutterEmbedding"
-72-->/Users/sucharitadhar/Documents/GitHub/consentify/android/app/src/main/AndroidManifest.xml:48:13-44
-73            android:value="2" />
-73-->/Users/sucharitadhar/Documents/GitHub/consentify/android/app/src/main/AndroidManifest.xml:49:13-30
-74
-75        <provider
-75-->[:open_file] /Users/sucharitadhar/Documents/GitHub/consentify/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-21:20
-76            android:name="com.crazecoder.openfile.FileProvider"
-76-->[:open_file] /Users/sucharitadhar/Documents/GitHub/consentify/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-64
-77            android:authorities="com.example.consentify.fileProvider.com.crazecoder.openfile"
-77-->[:open_file] /Users/sucharitadhar/Documents/GitHub/consentify/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-88
-78            android:exported="false"
-78-->[:open_file] /Users/sucharitadhar/Documents/GitHub/consentify/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
-79            android:grantUriPermissions="true" >
-79-->[:open_file] /Users/sucharitadhar/Documents/GitHub/consentify/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
-80            <meta-data
-80-->[:open_file] /Users/sucharitadhar/Documents/GitHub/consentify/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-20:53
-81                android:name="android.support.FILE_PROVIDER_PATHS"
-81-->[:open_file] /Users/sucharitadhar/Documents/GitHub/consentify/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-67
-82                android:resource="@xml/filepaths" />
-82-->[:open_file] /Users/sucharitadhar/Documents/GitHub/consentify/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-50
-83        </provider>
-84    </application>
-85
-86</manifest>
+56            <!--
+57                 Specifies an Android theme to apply to this Activity as soon as
+58                 the Android process has started. This theme is visible to the user
+59                 while the Flutter UI initializes. After that, this theme continues
+60                 to determine the Window background behind the Flutter UI.
+61            -->
+62            <meta-data
+62-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:21:13-24:17
+63                android:name="io.flutter.embedding.android.NormalTheme"
+63-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:22:15-70
+64                android:resource="@style/NormalTheme" />
+64-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:23:15-52
+65            <!--
+66                 Displays an Android View that continues showing the launch screen
+67                 Drawable until Flutter paints its first frame, then this splash
+68                 screen fades out. A splash screen is useful to avoid any visual
+69                 gap between the end of Android's launch screen and the painting of
+70                 Flutter's first frame.
+71            -->
+72            <meta-data
+72-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:30:13-33:17
+73                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+73-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:31:15-79
+74                android:resource="@drawable/launch_background" />
+74-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:32:15-61
+75
+76            <intent-filter>
+76-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:34:13-37:29
+77                <action android:name="android.intent.action.MAIN" />
+77-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:35:17-68
+77-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:35:25-66
+78
+79                <category android:name="android.intent.category.LAUNCHER" />
+79-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:36:17-76
+79-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:36:27-74
+80            </intent-filter>
+81        </activity>
+82
+83        <receiver
+83-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:39:9-45:20
+84            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+84-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:39:19-107
+85            android:exported="true" >
+85-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:40:15-38
+86            <intent-filter>
+86-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:42:11-44:27
+87                <action android:name="android.intent.action.BOOT_COMPLETED" />
+87-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:43:13-82
+87-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:43:21-72
+88            </intent-filter>
+89        </receiver>
+90        <receiver
+90-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:46:9-47:38
+91            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+91-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:46:19-103
+92            android:exported="true" />
+92-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:47:13-36
+93
+94        <!--
+95             Don't delete the meta-data below.
+96             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+97        -->
+98        <meta-data
+98-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:54:9-56:33
+99            android:name="flutterEmbedding"
+99-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:55:13-44
+100            android:value="2" />
+100-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:56:13-30
+101
+102        <provider
+102-->[:open_file] E:\CONSENTIFY\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-23:20
+103            android:name="com.crazecoder.openfile.FileProvider"
+103-->[:open_file] E:\CONSENTIFY\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-64
+104            android:authorities="com.example.consentify.fileProvider.com.crazecoder.openfile"
+104-->[:open_file] E:\CONSENTIFY\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-88
+105            android:exported="false"
+105-->[:open_file] E:\CONSENTIFY\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-37
+106            android:grantUriPermissions="true" >
+106-->[:open_file] E:\CONSENTIFY\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-47
+107            <meta-data
+107-->[:open_file] E:\CONSENTIFY\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-22:53
+108                android:name="android.support.FILE_PROVIDER_PATHS"
+108-->[:open_file] E:\CONSENTIFY\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:21:17-67
+109                android:resource="@xml/filepaths" />
+109-->[:open_file] E:\CONSENTIFY\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-50
+110        </provider>
+111
+112        <uses-library
+112-->[androidx.window:window:1.0.0-beta04] C:\Users\yesh\.gradle\caches\transforms-3\f5212a0d5a31f16256cd04cdcd865737\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+113            android:name="androidx.window.extensions"
+113-->[androidx.window:window:1.0.0-beta04] C:\Users\yesh\.gradle\caches\transforms-3\f5212a0d5a31f16256cd04cdcd865737\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+114            android:required="false" />
+114-->[androidx.window:window:1.0.0-beta04] C:\Users\yesh\.gradle\caches\transforms-3\f5212a0d5a31f16256cd04cdcd865737\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+115        <uses-library
+115-->[androidx.window:window:1.0.0-beta04] C:\Users\yesh\.gradle\caches\transforms-3\f5212a0d5a31f16256cd04cdcd865737\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+116            android:name="androidx.window.sidecar"
+116-->[androidx.window:window:1.0.0-beta04] C:\Users\yesh\.gradle\caches\transforms-3\f5212a0d5a31f16256cd04cdcd865737\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+117            android:required="false" />
+117-->[androidx.window:window:1.0.0-beta04] C:\Users\yesh\.gradle\caches\transforms-3\f5212a0d5a31f16256cd04cdcd865737\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+118
+119        <provider
+119-->[androidx.emoji2:emoji2:1.0.0] C:\Users\yesh\.gradle\caches\transforms-3\914af07b2490dc878f01326ae2aa49a5\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+120            android:name="androidx.startup.InitializationProvider"
+120-->[androidx.emoji2:emoji2:1.0.0] C:\Users\yesh\.gradle\caches\transforms-3\914af07b2490dc878f01326ae2aa49a5\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+121            android:authorities="com.example.consentify.androidx-startup"
+121-->[androidx.emoji2:emoji2:1.0.0] C:\Users\yesh\.gradle\caches\transforms-3\914af07b2490dc878f01326ae2aa49a5\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+122            android:exported="false" >
+122-->[androidx.emoji2:emoji2:1.0.0] C:\Users\yesh\.gradle\caches\transforms-3\914af07b2490dc878f01326ae2aa49a5\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+123            <meta-data
+123-->[androidx.emoji2:emoji2:1.0.0] C:\Users\yesh\.gradle\caches\transforms-3\914af07b2490dc878f01326ae2aa49a5\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+124                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+124-->[androidx.emoji2:emoji2:1.0.0] C:\Users\yesh\.gradle\caches\transforms-3\914af07b2490dc878f01326ae2aa49a5\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+125                android:value="androidx.startup" />
+125-->[androidx.emoji2:emoji2:1.0.0] C:\Users\yesh\.gradle\caches\transforms-3\914af07b2490dc878f01326ae2aa49a5\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+126            <meta-data
+126-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\yesh\.gradle\caches\transforms-3\bf8d388157906b2f93596545fa1cdd75\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+127                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+127-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\yesh\.gradle\caches\transforms-3\bf8d388157906b2f93596545fa1cdd75\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+128                android:value="androidx.startup" />
+128-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\yesh\.gradle\caches\transforms-3\bf8d388157906b2f93596545fa1cdd75\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+129        </provider>
+130
+131        <activity
+131-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
+132            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+132-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:48:13-74
+133            android:clearTaskOnLaunch="true"
+133-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
+134            android:screenOrientation="sensorLandscape"
+134-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:50:13-56
+135            android:stateNotNeeded="true"
+135-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
+136            android:theme="@style/zxing_CaptureTheme"
+136-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:52:13-54
+137            android:windowSoftInputMode="stateAlwaysHidden" />
+137-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:53:13-60
+138    </application>
+139
+140</manifest>
