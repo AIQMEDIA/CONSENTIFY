@@ -1,25 +1,19 @@
 import 'package:flutter/cupertino.dart';
 
-final askingconsentController = TextEditingController();
-final givingconsentController = TextEditingController();
-final askingemailController = TextEditingController();
-final givinggemailController = TextEditingController();
+final fullnameController = TextEditingController();
+final emailController = TextEditingController();
+final birthdateController = TextEditingController();
+final mobilenoController = TextEditingController();
 
-var askingconsent = " ";
-var givingconsent = " ";
-var askingemail = " ";
-var givingemail = " ";
+var fullname = " ";
+var email = " ";
+var birthdate = " ";
+var mobileno = " ";
 
 // ignore: non_constant_identifier_names
 ClearText() {
-  askingconsentController.clear();
-  givingconsentController.clear();
-  askingemailController.clear();
-  givinggemailController.clear();
-}
-
-// ignore: non_constant_identifier_names
-QrConsents() {
-  givingconsentController.text;
-  givinggemailController.text;
+  fullnameController.clear();
+  emailController.clear();
+  birthdateController.clear();
+  mobilenoController.clear();
 }

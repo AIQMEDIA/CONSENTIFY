@@ -20,33 +20,7 @@ class _LoginScreenState extends State<LoginScreen> {
   String email;
   String password;
   final _formKey = GlobalKey<FormState>();
-  // var _session, _uri;
-// ===========================================================
-//     var controller = WalletConnect(
-//       bridge: 'https://bridge.walletconnect.org',
-//       clientMeta: const PeerMeta(
-//           name: 'consentify',
-//           description: 'an app for agreement',
-//           url: 'https://walletconnect.org',
-//           icons: []));
 
-// loginusingMetamask(BuildContext context)async{
-//   if(!connector.connected){
-// try{
-//   var session=await connector.createSession(onDisplayuri:(uri)async{
-// _uri=uri;
-// await launchUrlString(uri,mode:launchMode.externalApplication);
-//   });
-//   Setstate({
-//     _session=session;
-//   }),
-// }
-// catch(exp){
-//   print(exp);
-// }
-//   }
-// }
-// ==================================================================
   @override
   Widget build(BuildContext context) {
     return Scaffold(

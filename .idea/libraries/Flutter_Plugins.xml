@@ -1,6 +1,16 @@
 <component name="libraryTable">
   <library name="Flutter Plugins" type="FlutterPluginsLibraryType">
-    <CLASSES />
+    <CLASSES>
+      <root url="file://D:/flutter_windows_3.3.4-stable/flutter/.pub-cache/hosted/pub.dartlang.org/open_file-3.2.1" />
+      <root url="file://D:/flutter_windows_3.3.4-stable/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_local_notifications-1.5.0+1" />
+      <root url="file://D:/flutter_windows_3.3.4-stable/flutter/.pub-cache/hosted/pub.dartlang.org/qr_code_scanner-1.0.1" />
+      <root url="file://D:/flutter_windows_3.3.4-stable/flutter/.pub-cache/hosted/pub.dartlang.org/fluttertoast-8.0.9" />
+      <root url="file://D:/flutter_windows_3.3.4-stable/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-2.0.11" />
+      <root url="file://D:/flutter_windows_3.3.4-stable/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_windows-2.0.7" />
+      <root url="file://D:/flutter_windows_3.3.4-stable/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_ios-2.0.11" />
+      <root url="file://D:/flutter_windows_3.3.4-stable/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-2.1.7" />
+      <root url="file://D:/flutter_windows_3.3.4-stable/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-2.1.0+1" />
+    </CLASSES>
     <JAVADOC />
     <SOURCES />
   </library>

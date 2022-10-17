@@ -6,7 +6,7 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="28"
-9        android:targetSdkVersion="31" />
+9        android:targetSdkVersion="32" />
 10    <!--
 11         Flutter needs it to communicate with the running application
 12         to allow setting breakpoints, to provide hot reload, etc.
@@ -33,47 +33,47 @@
 20-->[:open_file] E:\CONSENTIFY\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-83
 20-->[:open_file] E:\CONSENTIFY\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-80
 21    <uses-feature
-21-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:25:5-27:36
+21-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\925c977e7956678967bdd8e8e3ec2c3d\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:25:5-27:36
 22        android:name="android.hardware.camera"
-22-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:26:9-47
+22-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\925c977e7956678967bdd8e8e3ec2c3d\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:26:9-47
 23        android:required="false" />
-23-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:27:9-33
+23-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\925c977e7956678967bdd8e8e3ec2c3d\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:27:9-33
 24    <uses-feature
-24-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:28:5-30:36
+24-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\925c977e7956678967bdd8e8e3ec2c3d\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:28:5-30:36
 25        android:name="android.hardware.camera.front"
-25-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:29:9-53
+25-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\925c977e7956678967bdd8e8e3ec2c3d\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:29:9-53
 26        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
-26-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:30:9-33
+26-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\925c977e7956678967bdd8e8e3ec2c3d\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:30:9-33
 27    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
 28    <uses-feature
-28-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:33:5-35:36
+28-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\925c977e7956678967bdd8e8e3ec2c3d\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:33:5-35:36
 29        android:name="android.hardware.camera.autofocus"
-29-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:34:9-57
+29-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\925c977e7956678967bdd8e8e3ec2c3d\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:34:9-57
 30        android:required="false" />
-30-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:35:9-33
+30-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\925c977e7956678967bdd8e8e3ec2c3d\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:35:9-33
 31    <uses-feature
-31-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:36:5-38:36
+31-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\925c977e7956678967bdd8e8e3ec2c3d\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:36:5-38:36
 32        android:name="android.hardware.camera.flash"
-32-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:37:9-53
+32-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\925c977e7956678967bdd8e8e3ec2c3d\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:37:9-53
 33        android:required="false" />
-33-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:38:9-33
+33-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\925c977e7956678967bdd8e8e3ec2c3d\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:38:9-33
 34    <uses-feature
-34-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:39:5-41:36
+34-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\925c977e7956678967bdd8e8e3ec2c3d\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:39:5-41:36
 35        android:name="android.hardware.screen.landscape"
-35-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:40:9-57
+35-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\925c977e7956678967bdd8e8e3ec2c3d\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:40:9-57
 36        android:required="false" />
-36-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:41:9-33
+36-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\925c977e7956678967bdd8e8e3ec2c3d\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:41:9-33
 37    <uses-feature
-37-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:42:5-44:36
+37-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\925c977e7956678967bdd8e8e3ec2c3d\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:42:5-44:36
 38        android:name="android.hardware.wifi"
-38-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:43:9-45
+38-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\925c977e7956678967bdd8e8e3ec2c3d\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:43:9-45
 39        android:required="false" />
-39-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:44:9-33
+39-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\925c977e7956678967bdd8e8e3ec2c3d\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:44:9-33
 40
 41    <application
 41-->E:\CONSENTIFY\android\app\src\main\AndroidManifest.xml:6:4-57:19
 42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-42-->[androidx.core:core:1.7.0] C:\Users\yesh\.gradle\caches\transforms-3\adacc4bbdca3c037c01e5031782c646c\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+42-->[androidx.core:core:1.7.0] C:\Users\yesh\.gradle\caches\transforms-3\4d3b05803e6fd4061d206e6ff20d4657\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 43        android:debuggable="true"
 44        android:extractNativeLibs="false"
 45        android:icon="@mipmap/ic_launcher"
@@ -185,54 +185,54 @@
 110        </provider>
 111
 112        <uses-library
-112-->[androidx.window:window:1.0.0-beta04] C:\Users\yesh\.gradle\caches\transforms-3\f5212a0d5a31f16256cd04cdcd865737\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+112-->[androidx.window:window:1.0.0-beta04] C:\Users\yesh\.gradle\caches\transforms-3\8c52c4f9b0afd78d2f72502eac00cd01\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
 113            android:name="androidx.window.extensions"
-113-->[androidx.window:window:1.0.0-beta04] C:\Users\yesh\.gradle\caches\transforms-3\f5212a0d5a31f16256cd04cdcd865737\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+113-->[androidx.window:window:1.0.0-beta04] C:\Users\yesh\.gradle\caches\transforms-3\8c52c4f9b0afd78d2f72502eac00cd01\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
 114            android:required="false" />
-114-->[androidx.window:window:1.0.0-beta04] C:\Users\yesh\.gradle\caches\transforms-3\f5212a0d5a31f16256cd04cdcd865737\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+114-->[androidx.window:window:1.0.0-beta04] C:\Users\yesh\.gradle\caches\transforms-3\8c52c4f9b0afd78d2f72502eac00cd01\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
 115        <uses-library
-115-->[androidx.window:window:1.0.0-beta04] C:\Users\yesh\.gradle\caches\transforms-3\f5212a0d5a31f16256cd04cdcd865737\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+115-->[androidx.window:window:1.0.0-beta04] C:\Users\yesh\.gradle\caches\transforms-3\8c52c4f9b0afd78d2f72502eac00cd01\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
 116            android:name="androidx.window.sidecar"
-116-->[androidx.window:window:1.0.0-beta04] C:\Users\yesh\.gradle\caches\transforms-3\f5212a0d5a31f16256cd04cdcd865737\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+116-->[androidx.window:window:1.0.0-beta04] C:\Users\yesh\.gradle\caches\transforms-3\8c52c4f9b0afd78d2f72502eac00cd01\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
 117            android:required="false" />
-117-->[androidx.window:window:1.0.0-beta04] C:\Users\yesh\.gradle\caches\transforms-3\f5212a0d5a31f16256cd04cdcd865737\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+117-->[androidx.window:window:1.0.0-beta04] C:\Users\yesh\.gradle\caches\transforms-3\8c52c4f9b0afd78d2f72502eac00cd01\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
 118
 119        <provider
-119-->[androidx.emoji2:emoji2:1.0.0] C:\Users\yesh\.gradle\caches\transforms-3\914af07b2490dc878f01326ae2aa49a5\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+119-->[androidx.emoji2:emoji2:1.0.0] C:\Users\yesh\.gradle\caches\transforms-3\2e6cea60e4d4c37a68622468d313674b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
 120            android:name="androidx.startup.InitializationProvider"
-120-->[androidx.emoji2:emoji2:1.0.0] C:\Users\yesh\.gradle\caches\transforms-3\914af07b2490dc878f01326ae2aa49a5\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+120-->[androidx.emoji2:emoji2:1.0.0] C:\Users\yesh\.gradle\caches\transforms-3\2e6cea60e4d4c37a68622468d313674b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
 121            android:authorities="com.example.consentify.androidx-startup"
-121-->[androidx.emoji2:emoji2:1.0.0] C:\Users\yesh\.gradle\caches\transforms-3\914af07b2490dc878f01326ae2aa49a5\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+121-->[androidx.emoji2:emoji2:1.0.0] C:\Users\yesh\.gradle\caches\transforms-3\2e6cea60e4d4c37a68622468d313674b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
 122            android:exported="false" >
-122-->[androidx.emoji2:emoji2:1.0.0] C:\Users\yesh\.gradle\caches\transforms-3\914af07b2490dc878f01326ae2aa49a5\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+122-->[androidx.emoji2:emoji2:1.0.0] C:\Users\yesh\.gradle\caches\transforms-3\2e6cea60e4d4c37a68622468d313674b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
 123            <meta-data
-123-->[androidx.emoji2:emoji2:1.0.0] C:\Users\yesh\.gradle\caches\transforms-3\914af07b2490dc878f01326ae2aa49a5\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+123-->[androidx.emoji2:emoji2:1.0.0] C:\Users\yesh\.gradle\caches\transforms-3\2e6cea60e4d4c37a68622468d313674b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
 124                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-124-->[androidx.emoji2:emoji2:1.0.0] C:\Users\yesh\.gradle\caches\transforms-3\914af07b2490dc878f01326ae2aa49a5\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+124-->[androidx.emoji2:emoji2:1.0.0] C:\Users\yesh\.gradle\caches\transforms-3\2e6cea60e4d4c37a68622468d313674b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
 125                android:value="androidx.startup" />
-125-->[androidx.emoji2:emoji2:1.0.0] C:\Users\yesh\.gradle\caches\transforms-3\914af07b2490dc878f01326ae2aa49a5\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+125-->[androidx.emoji2:emoji2:1.0.0] C:\Users\yesh\.gradle\caches\transforms-3\2e6cea60e4d4c37a68622468d313674b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
 126            <meta-data
-126-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\yesh\.gradle\caches\transforms-3\bf8d388157906b2f93596545fa1cdd75\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+126-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\yesh\.gradle\caches\transforms-3\647534b5864f7e702ccd3e7d95c984f3\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
 127                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-127-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\yesh\.gradle\caches\transforms-3\bf8d388157906b2f93596545fa1cdd75\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+127-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\yesh\.gradle\caches\transforms-3\647534b5864f7e702ccd3e7d95c984f3\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
 128                android:value="androidx.startup" />
-128-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\yesh\.gradle\caches\transforms-3\bf8d388157906b2f93596545fa1cdd75\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+128-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\yesh\.gradle\caches\transforms-3\647534b5864f7e702ccd3e7d95c984f3\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
 129        </provider>
 130
 131        <activity
-131-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
+131-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\925c977e7956678967bdd8e8e3ec2c3d\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
 132            android:name="com.journeyapps.barcodescanner.CaptureActivity"
-132-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:48:13-74
+132-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\925c977e7956678967bdd8e8e3ec2c3d\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:48:13-74
 133            android:clearTaskOnLaunch="true"
-133-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
+133-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\925c977e7956678967bdd8e8e3ec2c3d\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
 134            android:screenOrientation="sensorLandscape"
-134-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:50:13-56
+134-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\925c977e7956678967bdd8e8e3ec2c3d\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:50:13-56
 135            android:stateNotNeeded="true"
-135-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
+135-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\925c977e7956678967bdd8e8e3ec2c3d\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
 136            android:theme="@style/zxing_CaptureTheme"
-136-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:52:13-54
+136-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\925c977e7956678967bdd8e8e3ec2c3d\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:52:13-54
 137            android:windowSoftInputMode="stateAlwaysHidden" />
-137-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\b82a0940405e2c6ce3a49ebdc81e0175\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:53:13-60
+137-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yesh\.gradle\caches\transforms-3\925c977e7956678967bdd8e8e3ec2c3d\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:53:13-60
 138    </application>
 139
 140</manifest>

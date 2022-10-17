@@ -1,4 +1,0 @@
-#Sat Oct 08 20:09:31 IST 2022
-base.0=E\:\\CONSENTIFY\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
-renamed.0=classes.dex
-path.0=classes.dex

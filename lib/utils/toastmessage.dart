@@ -16,3 +16,11 @@ void showErrorToast() => Fluttertoast.showToast(
     fontSize: 18,
     gravity: ToastGravity.TOP,
     backgroundColor: ColorUtils.kerror);
+
+void showRegisterToast() => Fluttertoast.showToast(
+    msg: "Register Sucseesfully",
+    timeInSecForIosWeb: 2,
+    toastLength: Toast.LENGTH_SHORT,
+    fontSize: 18,
+    gravity: ToastGravity.TOP,
+    backgroundColor: ColorUtils.ksucssesful);

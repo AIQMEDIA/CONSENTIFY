@@ -4,7 +4,7 @@
             "outputFile": "E:\\CONSENTIFY\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bg\\values-bg.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\yesh\\.gradle\\caches\\transforms-3\\65d1806e274329aba941ec41a8fbd7b9\\transformed\\appcompat-1.4.2\\res\\values-bg\\values-bg.xml",
+                    "source": "C:\\Users\\yesh\\.gradle\\caches\\transforms-3\\ee0d21b97e8059e0cf2d40a424c47fb6\\transformed\\appcompat-1.4.2\\res\\values-bg\\values-bg.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,24 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\yesh\\.gradle\\caches\\transforms-3\\b82a0940405e2c6ce3a49ebdc81e0175\\transformed\\jetified-zxing-android-embedded-4.3.0\\res\\values-bg\\values-bg.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,112,159,311",
-                        "endColumns": "56,46,151,110",
-                        "endOffsets": "107,154,306,417"
-                    },
-                    "to": {
-                        "startLines": "31,32,33,34",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "3039,3096,3143,3295",
-                        "endColumns": "56,46,151,110",
-                        "endOffsets": "3091,3138,3290,3401"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\yesh\\.gradle\\caches\\transforms-3\\adacc4bbdca3c037c01e5031782c646c\\transformed\\core-1.7.0\\res\\values-bg\\values-bg.xml",
+                    "source": "C:\\Users\\yesh\\.gradle\\caches\\transforms-3\\4d3b05803e6fd4061d206e6ff20d4657\\transformed\\core-1.7.0\\res\\values-bg\\values-bg.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -45,6 +28,23 @@
                         "startOffsets": "2938",
                         "endColumns": "100",
                         "endOffsets": "3034"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\yesh\\.gradle\\caches\\transforms-3\\925c977e7956678967bdd8e8e3ec2c3d\\transformed\\jetified-zxing-android-embedded-4.3.0\\res\\values-bg\\values-bg.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,112,159,311",
+                        "endColumns": "56,46,151,110",
+                        "endOffsets": "107,154,306,417"
+                    },
+                    "to": {
+                        "startLines": "31,32,33,34",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "3039,3096,3143,3295",
+                        "endColumns": "56,46,151,110",
+                        "endOffsets": "3091,3138,3290,3401"
                     }
                 }
             ]

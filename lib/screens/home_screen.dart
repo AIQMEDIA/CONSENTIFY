@@ -1,4 +1,3 @@
-import 'package:consentify/screens/qrcode.dart';
 import 'package:consentify/widgets/settings.dart';
 import 'package:consentify/widgets/faq_screen.dart';
 import 'package:flutter/material.dart';
