@@ -1,5 +1,4 @@
 import 'package:consentify/api/api_services/bLoc.dart';
-import 'package:consentify/api/api_services/models/models.dart';
 import 'package:consentify/screens/qrcode.dart';
 import 'package:consentify/screens/qrview.dart';
 import 'package:flutter/material.dart';
@@ -13,10 +12,7 @@ class AgreementInput extends StatefulWidget {
 }
 
 class _AgreementInputState extends State<AgreementInput> {
-  void initState() {
-    super.initState();
-    getEthereumwalletbloc.getEthereumwalletsink();
-  }
+
 
   @override
   Widget build(BuildContext context) {

@@ -1,32 +1,30 @@
-import 'package:http/http.dart' as http;
-import 'dart:convert';
+import 'dart:io';
 import 'package:consentify/api/api_services/bLoc.dart';
-import 'package:consentify/api/api_services/models/models.dart';
 import 'package:consentify/constants.dart';
 import 'package:consentify/screens/home_screen.dart';
 import 'package:consentify/utils/controllers.dart';
 import 'package:consentify/utils/toastmessage.dart';
+
+import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
-import 'package:modal_progress_hud/modal_progress_hud.dart';
-import 'package:consentify/api/api_services/models/models.dart';
 
 class Registerpage extends StatefulWidget {
-  // const Registerpage({Key key}) : super(key: key);
+  const Registerpage({Key key}) : super(key: key);
   static String id = 'Register_screen';
   @override
   State<Registerpage> createState() => _RegisterpageState();
 }
 
+var xpub;
+var mnemonic;
 
 class _RegisterpageState extends State<Registerpage> {
-  bool showSpinner = false;
+  bool showSpinner = true;
   final _registerKey = GlobalKey<FormState>();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: ModalProgressHUD(
-      inAsyncCall: showSpinner,
-      child: Form(
+      body: Form(
         key: _registerKey,
         child: Column(
           children: <Widget>[
@@ -36,11 +34,11 @@ class _RegisterpageState extends State<Registerpage> {
                 reverse: true,
                 child: Padding(
                   padding:
-                      const EdgeInsets.symmetric(horizontal: 16, vertical: 20),
+                      const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
                   child: Column(
                     children: <Widget>[
                       Padding(
-                        padding: EdgeInsets.only(top: 100),
+                        padding: EdgeInsets.only(top: 80),
                         child: Text(
                           "Consentify",
                           style: TextStyle(
@@ -231,7 +229,29 @@ class _RegisterpageState extends State<Registerpage> {
                           ],
                         ),
                       ),
-                      SizedBox(height: 10),
+                      // SizedBox(
+                      //   height: 10,
+                      // ),
+                      // Container(
+                      //   height: 54,
+                      //   width: 200,
+                      //   child: MaterialButton(
+                      //     padding: EdgeInsets.all(15.0),
+                      //     shape: RoundedRectangleBorder(
+                      //         borderRadius: BorderRadius.circular(10.0)),
+                      //     onPressed: () {
+                      //       pickfile();
+                      //     },
+                      //     child: Text(
+                      //       'choose',
+                      //       style: TextStyle(
+                      //           fontWeight: FontWeight.bold, fontSize: 18),
+                      //     ),
+                      //     color: kPrimaryColor,
+                      //   ),
+                      // ),
+
+                      SizedBox(height: 8),
                       Container(
                         height: 54,
                         width: 200,
@@ -242,9 +262,9 @@ class _RegisterpageState extends State<Registerpage> {
                           onPressed: () {
                             if (_registerKey.currentState.validate()) {
                               showRegisterToast();
+                              getEthereumwalletbloc.getEthereumwalletsink();
                               Navigator.pushNamed(context, HomeScreen.id);
                               ClearText();
-
                               setState(() {
                                 showSpinner = true;
                               });
@@ -289,10 +309,29 @@ class _RegisterpageState extends State<Registerpage> {
           ],
         ),
       ),
-    ));
+    );
   }
 }
 
+FilePickerResult result;
+String _filename;
+PlatformFile pickedfile;
+bool isLoading = false;
+File fileToDisplay;
 
-
-  
+Future<void> pickfile() async {
+  try {
+    result = await FilePicker.platform.pickFiles(
+      type: FileType.any,
+      allowMultiple: false,
+    );
+    if (result != null) {
+      _filename = result.files.first.name;
+      pickedfile = result.files.first;
+      fileToDisplay = File(pickedfile.path.toString());
+      print('File name$_filename');
+    }
+  } catch (e) {
+    print(e);
+  }
+}

@@ -3,7 +3,7 @@ import 'package:consentify/api/api_services/providers.dart';
 class Config {
   static const String apiurl = 'https://api-eu1.tatum.io/v3/ethereum/wallet';
 
-  static const String getfuel = 'getethethereumwallet';
+  static const String getethethereumwallet = 'getethethereumwallet';
 }
 
 class PrefKeys {
@@ -22,9 +22,9 @@ class Repository {
       getEthereumwalletApi.onGetEthereumwalletApi();
 }
 
-class AddressRepository {
-  //=================== GET ETHEREUMWALLET API  ===================
-  final GetEthereumAddressApi getEthereumAddressApi = GetEthereumAddressApi();
-  Future<dynamic> ongetEthereumAddressApi() =>
-      getEthereumAddressApi.onGetEthereumAdressApi();
-}
+// class AddressRepository {
+//   //=================== GET ETHEREUMWALLET API  ===================
+//   final GetEthereumAddressApi getEthereumAddressApi = GetEthereumAddressApi();
+//   Future<dynamic> ongetEthereumAddressApi() =>
+//       getEthereumAddressApi.onGetEthereumAdressApi();
+// }

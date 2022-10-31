@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 import 'package:qr_flutter/qr_flutter.dart';
 
@@ -24,6 +25,7 @@ class _QrcodeState extends State<Qrcode> {
                 backgroundColor: Colors.white,
               ),
               SizedBox(height: 40),
+
               // buildTextField(context),
             ],
           ),

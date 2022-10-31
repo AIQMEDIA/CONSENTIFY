@@ -3,7 +3,6 @@ import 'package:consentify/screens/agreement_input.dart';
 // import 'package:consentify/screens/review_screen.dart';
 import 'package:consentify/screens/home_screen.dart';
 import 'package:consentify/screens/past_agreement.dart';
-import 'package:consentify/screens/qrcode.dart';
 import 'package:consentify/screens/qrview.dart';
 import 'package:consentify/screens/registerpage.dart';
 import 'package:flutter/material.dart';
