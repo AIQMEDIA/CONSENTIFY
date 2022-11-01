@@ -1,7 +1,7 @@
 import 'package:consentify/screens/home_screen.dart';
+import 'package:consentify/screens/registerpage.dart';
 import 'package:flutter/material.dart';
 import 'package:consentify/constants.dart';
-import 'package:consentify/screens/login_screen.dart';
 import 'package:injector/injector.dart';
 import 'package:supabase/supabase.dart';
 
@@ -65,7 +65,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
               if (user != null) {
                 Navigator.pushNamed(context, HomeScreen.id);
               } else {
-                Navigator.pushNamed(context, LoginScreen.id);
+                Navigator.pushNamed(context, Registerpage.id);
               }
             },
           ),

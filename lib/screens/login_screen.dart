@@ -151,7 +151,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                 showSpinner = false;
                               });
                             },
-                            child: Text('Create Account'),
+                            child: Text('Create A New Account'),
                             color: kPrimaryColor,
                           ),
                         ),

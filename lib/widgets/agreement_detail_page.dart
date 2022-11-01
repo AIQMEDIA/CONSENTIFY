@@ -154,6 +154,7 @@ class _AgreementDetailPageState extends State<AgreementDetailPage> {
     String username = 'consentify@gmail.com';
     String password = 'Sucharita1234';
 
+    // ignore: deprecated_member_use
     final smtpServer = gmail(username, password);
     // Use the SmtpServer class to configure an SMTP server:
     // final smtpServer = SmtpServer('smtp.domain.com');

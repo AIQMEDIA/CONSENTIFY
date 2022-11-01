@@ -3,6 +3,8 @@ import 'package:consentify/screens/agreement_input.dart';
 // import 'package:consentify/screens/review_screen.dart';
 import 'package:consentify/screens/home_screen.dart';
 import 'package:consentify/screens/past_agreement.dart';
+import 'package:consentify/screens/qrview.dart';
+import 'package:consentify/screens/registerpage.dart';
 import 'package:flutter/material.dart';
 import 'package:consentify/screens/welcome_screen.dart';
 import 'package:consentify/constants.dart';
@@ -43,12 +45,16 @@ class Consentify extends StatelessWidget {
           ),
         ),
         initialRoute: WelcomeScreen.id,
+        // WelcomeScreen.id,
         routes: {
           WelcomeScreen.id: (context) => WelcomeScreen(),
           LoginScreen.id: (context) => LoginScreen(),
           HomeScreen.id: (context) => HomeScreen(),
           AgreementInput.id: (context) => AgreementInput(),
           PastAgreement.id: (context) => PastAgreement(),
+          Registerpage.id: (context) => Registerpage(),
+          QrScanPage.id: (context) => QrScanPage(),
+          QrScanPage.id: (context) => QrScanPage(),
         });
   }
 }
