@@ -1,9 +1,15 @@
+import 'dart:developer';
+
 import 'package:consentify/screens/home_screen.dart';
+import 'package:consentify/screens/login_screen.dart';
+import 'package:consentify/screens/registerpage.dart';
 import 'package:flutter/material.dart';
 import 'package:consentify/constants.dart';
-import 'package:consentify/screens/login_screen.dart';
 import 'package:injector/injector.dart';
 import 'package:supabase/supabase.dart';
+import 'package:web3dart/credentials.dart';
+
+import '../get/repository/past_agreement_repository.dart';
 
 class WelcomeScreen extends StatefulWidget {
   static String id = 'welcome_screen';
@@ -15,6 +21,14 @@ final supabaseClient = Injector.appInstance.get<SupabaseClient>();
 final user = supabaseClient.auth.user();
 
 class _WelcomeScreenState extends State<WelcomeScreen> {
+  @override
+  void initState() {
+    
+    super.initState();
+  }
+
+  
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

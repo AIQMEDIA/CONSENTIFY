@@ -1,4 +1,0 @@
-#Wed Jul 21 20:17:11 IST 2021
-base.0=/Users/sucharitadhar/Documents/GitHub/consentify/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex

@@ -12,7 +12,9 @@ final user = supabaseClient.auth.user();
 final userEmail = user.email;
 
 class AgreementDetailPage extends StatefulWidget {
-  final int agreementId;
+  // final int agreementId;
+
+  final String agreementId;
 
   const AgreementDetailPage({
     Key key,
@@ -31,14 +33,14 @@ class _AgreementDetailPageState extends State<AgreementDetailPage> {
   void initState() {
     super.initState();
 
-    refreshAgreement();
+    // refreshAgreement();
   }
 
   Future refreshAgreement() async {
     setState(() => isLoading = true);
 
-    this.agreement =
-        await AgreementDatabase.instance.readAgreement(widget.agreementId);
+    // this.agreement =
+    //     await AgreementDatabase.instance.readAgreement(widget.agreementId);
 
     setState(() => isLoading = false);
   }
@@ -154,6 +156,7 @@ class _AgreementDetailPageState extends State<AgreementDetailPage> {
     String username = 'consentify@gmail.com';
     String password = 'Sucharita1234';
 
+    // ignore: deprecated_member_use
     final smtpServer = gmail(username, password);
     // Use the SmtpServer class to configure an SMTP server:
     // final smtpServer = SmtpServer('smtp.domain.com');

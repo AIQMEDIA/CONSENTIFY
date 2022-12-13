@@ -1,3 +1,4 @@
+import 'dart:developer';
 import 'dart:io';
 import 'dart:typed_data';
 import 'package:intl/intl.dart';
@@ -60,6 +61,8 @@ class PdfApi {
     final fileName =
         path.path + '/ConsentAgreement${DateTime.now().toIso8601String()}.pdf';
     final file = File(fileName);
+
+    log("Sunil file path ${fileName}");
 
     file.writeAsBytes(document.save());
     document.dispose();

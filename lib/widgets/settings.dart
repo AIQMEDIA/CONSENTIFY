@@ -1,5 +1,7 @@
 import 'package:consentify/constants.dart';
+import 'package:consentify/get/controller/main_controller.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:injector/injector.dart';
 import 'package:supabase/supabase.dart';
 
@@ -8,6 +10,7 @@ final user = supabaseClient.auth.user();
 final userEmail = user.email;
 
 class SettingsScreen extends StatelessWidget {
+  final controller = Get.find<MainController>();
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
@@ -17,7 +20,7 @@ class SettingsScreen extends StatelessWidget {
             Card(
               margin: const EdgeInsets.all(8.0),
               child: ListTile(
-                title: Text(userEmail,
+                title: Text(controller.userData.value.email,
                     style: TextStyle(
                         color: kPrimaryColor, fontWeight: FontWeight.w500)),
               ),
