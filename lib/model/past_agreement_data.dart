@@ -2,10 +2,12 @@
 import 'dart:convert';
 
 import 'package:flutter/cupertino.dart';
+import 'package:get/get.dart';
 
 class PastAgreementData {
   String publicKey;
   String value;
+  final isLoading = false.obs;
   PastAgreementData({
     @required this.publicKey,
     @required this.value,

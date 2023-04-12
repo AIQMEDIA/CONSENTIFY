@@ -1,9 +1,14 @@
+import 'dart:io';
+
 import 'package:consentify/db/database.dart';
 import 'package:consentify/get/controller/past_agreement_controller.dart';
+import 'package:consentify/helper/widgets.dart';
 import 'package:consentify/model/agreement.dart';
 import 'package:consentify/model/past_agreement_data.dart';
+import 'package:consentify/screens/pdf_viewer.dart';
 import 'package:consentify/widgets/agreement_card_widget.dart';
 import 'package:consentify/widgets/agreement_detail_page.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:get/get.dart';
@@ -18,30 +23,20 @@ class PastAgreement extends StatefulWidget {
 class _PastAgreementState extends State<PastAgreement> {
   List<Agreement> agreements;
 
-  bool isLoading = false;
-
   final controller = Get.find<PastAgreementController>();
+
+  final isLoadingPdf = false.obs;
 
   @override
   void initState() {
     super.initState();
 
-    // refreshAgreements();
-
     controller.getDataInFirebase();
   }
 
-  // @override
-  // void dispose() {
-  //   AgreementDatabase.instance.close();
-  //   super.dispose();
-  // }
-
   Future refreshAgreements() async {
     this.agreements = await AgreementDatabase.instance.readAllAgreement();
-    setState(() {
-      isLoading = false;
-    });
+    controller.isLoading.value = false;
   }
 
   @override
@@ -49,17 +44,67 @@ class _PastAgreementState extends State<PastAgreement> {
     return Scaffold(
       appBar: AppBar(title: Text('Past Agreements')),
       body: Obx((() {
-        return Center(
-          child: controller.pastAgreements.isEmpty
-              ? Text(
-                  'No Past Agreements',
-                  style: TextStyle(color: Colors.white, fontSize: 24),
-                )
-              : buildAgreements(
-                  pastAgreementData: controller.pastAgreements.value),
-        );
+        return controller.isLoading.value
+            ? Center(
+                child: CircularProgressIndicator(
+                  color: Colors.red,
+                  strokeWidth: 5,
+                ),
+              )
+            : Center(
+                child: controller.pastAgreements.isEmpty
+                    ? Text(
+                        'No Past Agreements',
+                        style: TextStyle(color: Colors.white, fontSize: 24),
+                      )
+                    : newBuildAgreements(
+                        pastAgreementData: controller.pastAgreements),
+              );
       })),
     );
+  }
+
+  Widget newBuildAgreements(
+      {@required List<PastAgreementData> pastAgreementData}) {
+    return ListView.builder(
+        itemCount: pastAgreementData.length,
+        itemBuilder: (context, index) {
+          final agreement = pastAgreementData[index];
+
+          return Obx(() => Material(
+                elevation: 8,
+                shadowColor: Colors.grey.shade700,
+                child: ListTile(
+                  leading: agreement.isLoading.value
+                      ? CupertinoActivityIndicator(
+                          color: Colors.red.shade400,
+                        )
+                      : Icon(
+                          Icons.picture_as_pdf,
+                          color: Colors.red.shade400,
+                        ),
+                  onTap: () async {
+                    agreement.isLoading.value = true;
+                    dynamic file =
+                        await controller.decodeData(id: agreement.value);
+
+                    agreement.isLoading.value = false;
+
+                    if (file is File) {
+                      Get.to(PdfViewer(
+                        file,
+                        isPast: true,
+                      ));
+                    }
+
+                    if (file is String) {
+                      showSnackWithoutContext(file);
+                    }
+                  },
+                  title: agreement.value.toString().text.size(Vx.dp14).make(),
+                ),
+              ).pSymmetric(h: 20, v: 8));
+        });
   }
 
   Widget buildAgreements(
@@ -74,25 +119,30 @@ class _PastAgreementState extends State<PastAgreement> {
         itemBuilder: (context, index) {
           final agreement = pastAgreementData[index];
 
-          return GestureDetector(
-            onTap: () async {
-              await Navigator.of(context).push(MaterialPageRoute(
-                builder: (context) =>
-                    AgreementDetailPage(agreementId: agreement.value),
-              ));
+          return Obx(() => agreement.isLoading.value
+              ? CupertinoActivityIndicator()
+              : Material(
+                  shadowColor: Colors.red,
+                  elevation: 8,
+                  child: ListTile(
+                    onTap: () async {
+                      agreement.isLoading.value = true;
+                      dynamic file =
+                          await controller.decodeData(id: agreement.value);
 
-              // refreshAgreements();
-            },
-            // child: AgreementCardWidget(agreement: agreement, index: index),
-            child: Card(
-              child: ListTile(
-                onTap: () {
-                  controller.decodeData(id: agreement.value);
-                },
-                title: agreement.value.toString().text.size(Vx.dp14).make(),
-              ),
-            ).pSymmetric(h: 4, v: 8),
-          );
+                      agreement.isLoading.value = false;
+
+                      if (file is File) {
+                        Get.to(PdfViewer(file));
+                      }
+
+                      if (file is String) {
+                        showSnackWithoutContext(file);
+                      }
+                    },
+                    title: agreement.value.toString().text.size(Vx.dp14).make(),
+                  ),
+                ).pSymmetric(h: 4, v: 8));
         },
       );
 }

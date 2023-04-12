@@ -1,0 +1,12 @@
+name: eth_abi_codec
+description: decode and encode for eth contract call
+version: 0.2.1
+homepage: https://github.com/nbltrust/dart-eth-abi-codec
+
+dependencies:
+  convert: ^3.0.1
+  pointycastle: ^3.6.2
+  typed_data: ^1.2.0
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"

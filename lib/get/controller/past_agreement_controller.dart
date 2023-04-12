@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:consentify/get/controller/main_controller.dart';
 import 'package:consentify/get/repository/past_agreement_repository.dart';
@@ -13,6 +15,8 @@ class PastAgreementController extends GetxController {
   final PastAgreementRepository repository;
   PastAgreementController(this.repository);
 
+  final isLoading = true.obs;
+
   getDataInFirebase() {
     final publicKey =
         Get.find<MainController>().registrationData.value.publicKey;
@@ -21,6 +25,7 @@ class PastAgreementController extends GetxController {
         .where('publicKey', whereIn: [publicKey])
         .get()
         .then((value) {
+          isLoading.value = false;
           if (value.docs.isEmpty) {
             showSnackWithoutContext("No Past Agreement Found!");
             return;
@@ -36,7 +41,7 @@ class PastAgreementController extends GetxController {
         });
   }
 
-  decodeData({@required String id}) {
-    repository.getIpfsValue(id: id);
+  Future<dynamic> decodeData({@required String id}) {
+    return repository.getIpfsValue(id: id);
   }
 }

@@ -15,9 +15,11 @@ import 'package:velocity_x/velocity_x.dart';
 import '../constants.dart';
 
 class PdfViewer extends StatefulWidget {
-  PdfViewer(this.file);
+  PdfViewer(this.file, {this.isPast=false});
 
   final File file;
+
+ final bool isPast;
 
   @override
   State<PdfViewer> createState() => _PdfViewerState();
@@ -65,33 +67,35 @@ class _PdfViewerState extends State<PdfViewer> {
         Positioned.fill(
             child: Align(
           alignment: Alignment.bottomCenter,
-          child: isLoad
-              ? CircularProgressIndicator(
-                  color: kPrimaryColor,
-                )
-              : CupertinoButton(
-                  borderRadius: BorderRadius.circular(12),
-                  color: kPrimaryColor,
-                  child: "Submit".text.xl.black.make(),
-                  onPressed: () {
-                    controller.setPdfData(widget.file, (value) {
-                      if (value.runtimeType == String) {
-                        setState(() {
-                          isComplete = false;
-                          isLoad = false;
+          child: widget.isPast
+              ? Container()
+              : isLoad
+                  ? CircularProgressIndicator(
+                      color: kPrimaryColor,
+                    )
+                  : CupertinoButton(
+                      borderRadius: BorderRadius.circular(12),
+                      color: kPrimaryColor,
+                      child: "Submit".text.xl.black.make(),
+                      onPressed: () {
+                        controller.setPdfData(widget.file, (value) {
+                          if (value.runtimeType == String) {
+                            setState(() {
+                              isComplete = false;
+                              isLoad = false;
+                            });
+                          } else {
+                            setState(() {
+                              isComplete = true;
+                              isLoad = false;
+                            });
+                          }
                         });
-                      } else {
-                        setState(() {
-                          isComplete = true;
-                          isLoad = false;
-                        });
-                      }
-                    });
 
-                    setState(() {
-                      isLoad = true;
-                    });
-                  }),
+                        setState(() {
+                          isLoad = true;
+                        });
+                      }),
         ))
       ],
     ));

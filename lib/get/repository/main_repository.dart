@@ -248,6 +248,8 @@ class MainRepository {
       'to': publicKey
     };
 
+    log("post Data => ${postData}");
+
     var request = http.Request("POST", Uri.parse("${baseUrl}record"));
 
     request.headers.addAll(header);
@@ -257,7 +259,7 @@ class MainRepository {
 
     var result = await response.stream.bytesToString();
 
-    log("Response =>  $postData");
+    log("Response =>  $result");
 
     if (response.statusCode != 200) {
       showSnackWithoutContext("Wrong Record!");

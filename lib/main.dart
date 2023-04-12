@@ -6,6 +6,7 @@ import 'package:consentify/screens/home_screen.dart';
 import 'package:consentify/screens/past_agreement.dart';
 import 'package:consentify/screens/qrview.dart';
 import 'package:consentify/screens/registerpage.dart';
+import 'package:consentify/test_page.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:consentify/screens/welcome_screen.dart';
@@ -44,16 +45,17 @@ class Consentify extends StatelessWidget {
           primaryColor: kPrimaryColor,
           scaffoldBackgroundColor: kBackgroundColor,
           textTheme: TextTheme(
-            headline4: TextStyle(
+            headlineMedium: TextStyle(
               color: Colors.white,
               fontWeight: FontWeight.bold,
             ),
-            button: TextStyle(color: kPrimaryColor),
-            headline5:
+            labelLarge: TextStyle(color: kPrimaryColor),
+            headlineSmall:
                 TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
           ),
         ),
         initialRoute: WelcomeScreen.id,
+        // home: TestPage(),
         // WelcomeScreen.id,
         routes: {
           WelcomeScreen.id: (context) => WelcomeScreen(),
