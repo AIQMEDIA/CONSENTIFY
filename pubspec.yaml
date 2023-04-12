@@ -25,7 +25,7 @@ dependencies:
   cloud_firestore: ^4.1.0
   crypto: ^3.0.2
   cupertino_icons: ^1.0.2
-  dio: ^4.0.6
+  dio: ^5.1.1
   eth_abi_codec:
     path: dart-eth-abi-codec-main
   ethereum: ^5.0.2
